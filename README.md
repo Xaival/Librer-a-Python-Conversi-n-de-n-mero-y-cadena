@@ -78,11 +78,11 @@ Es el conjunto de valores el cual se va a convertir.
 ### Grupo
 Cantidad mínima de caracteres del grupo. Si no se define se devolverá la máxima a la que llegue.
 
-`5` - `[AAABA]`
+`5` - AAABA
 
-`1` - `[BA]`
+`1` - BA
 
-`Sin definir` - `[BA]`
+`Sin definir` - BA
 
 
 ### Resolver
