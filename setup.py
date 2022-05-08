@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup (
-    name="Secuenciador alfanumérico",
+    name="Secuenciador alfanumerico",
     packages=['ConvertDicc'], # Este debe ser el mismo que el nombre de la carpeta
     version="2022.05.08",
     description="Convierte de un número o números a un grupo de caracteres y viceversa",
