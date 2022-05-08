@@ -1,5 +1,5 @@
 def DiccionarioPredeter(Diccionario):
-    '''DiccionarioPreder("01")
+    '''DiccionarioPredeter("01")
     
     Devuelve un array con el diccionario predeterminado correspondiente. En caso de entregar algo no especificado lo devolverá tal cual.
 
