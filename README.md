@@ -5,12 +5,12 @@
 
 ```python
 # Todos
-from ConvertDicc import *
+from SecuenciaAlfanumerica import *
 ```
 
 ## Devolver diccionario predeterminado
 ```python
-from ConvertDicc import DiccionarioPreder
+from SecuenciaAlfanumerica import DiccionarioPreder
 
 # Llamar librería predeterminada
 print(DiccionarioPredeter("AZ"))
@@ -19,7 +19,7 @@ print(DiccionarioPredeter("AZ"))
 
 ## Convertir secuencia numérica a una alfabética
 ```python
-from ConvertDicc import NumDiccionario
+from SecuenciaAlfanumerica import NumDiccionario
 
 # Convertir numérico en lista caracteres
 Diccionario = ["A", "B", "C"] # Array
@@ -31,7 +31,7 @@ print(NumDiccionario(Diccionario, Devolver, Grupo))
 
 ## Convertir secuencia alfabética a una numérica
 ```python
-from ConvertDicc import DiccionarioNum
+from SecuenciaAlfanumerica import DiccionarioNum
 
 # Convertir lista a numérico
 Diccionario = ["A", "B", "C"] # Diccionario de elementos
