@@ -1,7 +1,11 @@
 # Librería Python / Secuenciador alfanumérico
 
+## [GitHub](https://github.com/Xaival/Libreria-Python-Secuencia-alfanumerica)
+
+## [PyPI](https://pypi.org/project/Secuenciador-alfanumerico/)
+
 ## Importar librería
-[PyPI](https://pypi.org/project/Secuenciador-alfanumerico/) `pip install SecuenciaAlfanumerica`
+`pip install SecuenciaAlfanumerica`
 
 ```python
 # Importar todas las funciones
