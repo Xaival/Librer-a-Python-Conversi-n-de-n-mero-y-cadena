@@ -1,14 +1,39 @@
 # Librería Python / Secuenciador alfanumérico
 
 ## Importar librería
-[PyPI](https://pypi.org/project/Secuenciador-alfanumerico/)
+[PyPI](https://pypi.org/project/Secuenciador-alfanumerico/) `pip install Secuenciador-alfanumerico`
 
-`pip install Secuenciador-alfanumerico`
-
-
-Ejemplo
 ```python
+# Todos
+from ConvertDicc import *
 
+# Individuales
+from ConvertDicc import NumDiccionario
+from ConvertDicc import DiccionarioNum
+from ConvertDicc import DiccionarioPreder
+```
+
+## Devolver diccionario predeterminado
+
+
+## Convertir secuencia numérica a una alfabética
+
+
+## Convertir secuencia alfabética a una numérica
+
+
+## Partes
+### Diccionario
+
+### Devolver
+
+### Grupo
+
+### Resolver
+
+
+## Ejemplos
+```python
 from ConvertDicc import NumDiccionario
 from ConvertDicc import DiccionarioNum
 from ConvertDicc import DiccionarioPreder
