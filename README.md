@@ -3,7 +3,7 @@
 ## Proyecto
 [GitHub](https://github.com/Xaival/Libreria-Python-Secuencia-alfanumerica)
 
-[PyPI](https://pypi.org/project/Secuenciador-alfanumerico/)
+[PyPI](https://pypi.org/project/SecuenciaAlfanumerica/)
 
 ## Importar librería
 `pip install SecuenciaAlfanumerica`
