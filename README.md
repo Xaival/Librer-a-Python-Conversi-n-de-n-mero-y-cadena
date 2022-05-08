@@ -1,11 +1,18 @@
 # Librería Python / Secuenciador alfanumérico
 
 ## Ejemplos
-Dando `NumDiccionario(["A", "B", "C"], [0, 4], 5)` devuelve `['AAAAA', 'AAAAB', 'AAAAC', 'AAABA', 'AAABB']`
-
-Dando `DiccionarioNum(["A", "B", "C"], ['AAAAA', 'AAAAC', 'AACAB'])` devuelve `[0, 2, 19]`
-
-Dando `DiccionarioPredeter("01")` devuelve `["0", "1"]`
+```python
+NumDiccionario(["A", "B", "C"], [0, 4], 5)
+# ['AAAAA', 'AAAAB', 'AAAAC', 'AAABA', 'AAABB']
+```
+```python
+DiccionarioNum(["A", "B", "C"], ['AAAAA', 'AAAAC', 'AACAB'])
+# [0, 2, 19]
+```
+```python
+DiccionarioPredeter("01")
+# ["0", "1"]
+```
 
 ## Proyecto
 [GitHub](https://github.com/Xaival/Libreria-Python-Secuencia-alfanumerica)
