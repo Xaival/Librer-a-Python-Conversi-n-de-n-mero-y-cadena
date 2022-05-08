@@ -1,7 +1,11 @@
 # Librería Python / Secuenciador alfanumérico
-Plantilla para creación minimalista
+
+Instalador
+[Instalador](https://pypi.org/project/Secuenciador-alfanumerico/)
+`pip install Secuenciador-alfanumerico`
 
 
+Ejemplo
 ```python
 
 from ConvertDicc import NumDiccionario
@@ -26,5 +30,4 @@ print(DiccionarioNum(Diccionario, Resolver))
 # Llamar librería predeterminada
 print(DiccionarioPredeter("AZ"))
 # ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-
 ```
