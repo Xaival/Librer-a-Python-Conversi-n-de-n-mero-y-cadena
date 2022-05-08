@@ -1,7 +1,8 @@
 # Librería Python / Secuenciador alfanumérico
 
-Instalador
-[Instalador](https://pypi.org/project/Secuenciador-alfanumerico/)
+## Importar librería
+[PyPI](https://pypi.org/project/Secuenciador-alfanumerico/)
+
 `pip install Secuenciador-alfanumerico`
 
 
