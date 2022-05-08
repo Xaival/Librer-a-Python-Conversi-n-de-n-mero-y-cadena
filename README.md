@@ -1,11 +1,11 @@
 # Librería Python / Secuenciador alfanumérico
 
 ## Importar librería
-[PyPI](https://pypi.org/project/Secuenciador-alfanumerico/) `pip install Secuenciador-alfanumerico`
+[PyPI](https://pypi.org/project/Secuenciador-alfanumerico/) `pip install SecuenciaAlfanumerica`
 
 ```python
-# Todos
-from SecuenciaAlfanumerica import *
+# Importar todas las funciones
+import SecuenciaAlfanumerica
 ```
 
 ## Devolver diccionario predeterminado
