@@ -1,6 +1,6 @@
 from setuptools import setup
 
-readme = open("./README.md", "r")
+readme = open("./README.md", "r") # Leer archivo Readme.md (No detecta acentos)
 
 setup(
     name="SecuenciaAlfanumerica",
@@ -11,7 +11,7 @@ setup(
     long_description_content_type='text/markdown',
     author="Xaival",
     author_email="xaival.dark@gmail.com",
-    url='https://github.com/Xaival/Libreria-Python-Secuenciador-alfanumerico', # Usar la URL del repositorio de github
+    url='https://github.com/Xaival/Libreria-Python-Secuencia-alfanumerica', # Usar la URL del repositorio de GitHub
     keywords=['conversions', 'sequence', 'alphanumeric', 'binary'],
     classifiers=[ ],
     license='MIT',
