@@ -1,2 +1,2 @@
-# Plantilla
-Plantilla para creación minimalista.
+# Librería Python / Secuenciador alfanumérico
+Plantilla para creación minimalista
