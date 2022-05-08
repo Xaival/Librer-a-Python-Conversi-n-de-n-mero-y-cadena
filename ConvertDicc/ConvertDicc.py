@@ -1,4 +1,4 @@
-def DiccionarioPreder(Diccionario):
+def DiccionarioPredeter(Diccionario):
     '''DiccionarioPreder("01")
     
     Devuelve un array con el diccionario predeterminado correspondiente. En caso de entregar algo no especificado lo devolverá tal cual.
@@ -51,7 +51,7 @@ def NumDiccionario(Diccionario, Devolver, *Grupo):
     Grupo: Mínimo de caracteres - Manual 3 = ABA - Automática (No declarándola) BA
     '''
     
-    Diccionario=DiccionarioPreder(Diccionario) # Diccionario predeterminado
+    Diccionario=DiccionarioPredeter(Diccionario) # Diccionario predeterminado
     LenDiccionario = len(Diccionario) # Largo del diccionario
     LenDevolver = len(Devolver) # Largo del devolver
     Salida = [] # Array de salida
@@ -121,7 +121,7 @@ def DiccionarioNum(Diccionario, Resolver):
     Elementos para resolver - ['AAAAA', 'AAAAC', 'AACAB'] = [0, 2, 19]
     '''
     
-    Diccionario=DiccionarioPreder(Diccionario) # Diccionario predeterminado
+    Diccionario=DiccionarioPredeter(Diccionario) # Diccionario predeterminado
     LenDiccionario = len(Diccionario) # Largo del diccionario
     Salida = [] # Array de salida
     
