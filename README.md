@@ -30,7 +30,7 @@ import SecuenciaAlfanumerica
 
 ## Devolver diccionario predeterminado
 ```python
-from SecuenciaAlfanumerica import DiccionarioPreder
+from SecuenciaAlfanumerica import DiccionarioPredeter
 
 # Llamar librería predeterminada
 print(DiccionarioPredeter("AZ"))
