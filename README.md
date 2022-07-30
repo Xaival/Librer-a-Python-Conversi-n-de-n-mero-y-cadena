@@ -1,5 +1,10 @@
 # Librería Python / Secuenciador alfanumérico
 
+## Proyecto
+[GitHub](https://github.com/Xaival/Libreria-Python-Secuencia-alfanumerica)
+
+[PyPI](https://pypi.org/project/SecuenciaAlfanumerica/)
+
 ## Ejemplos
 ```python
 NumDiccionario(["A", "B", "C"], [0, 4], 5)
@@ -14,11 +19,7 @@ DiccionarioPredeter("01")
 # ["0", "1"]
 ```
 
-## Proyecto
-[GitHub](https://github.com/Xaival/Libreria-Python-Secuencia-alfanumerica)
-
-[PyPI](https://pypi.org/project/SecuenciaAlfanumerica/)
-
+<br>
 
 ## Importar librería
 `pip install SecuenciaAlfanumerica`
@@ -28,6 +29,8 @@ DiccionarioPredeter("01")
 import SecuenciaAlfanumerica
 ```
 
+<br>
+
 ## Devolver diccionario predeterminado
 ```python
 from SecuenciaAlfanumerica import DiccionarioPredeter
@@ -36,6 +39,8 @@ from SecuenciaAlfanumerica import DiccionarioPredeter
 print(DiccionarioPredeter("AZ"))
 # ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 ```
+
+<br>
 
 ## Convertir secuencia numérica a una alfabética
 ```python
@@ -49,6 +54,8 @@ print(NumDiccionario(Diccionario, Devolver, Grupo))
 # ['AAAAA', 'AAAAB', 'AAAAC', 'AAABA', 'AAABB']
 ```
 
+<br>
+
 ## Convertir secuencia alfabética a una numérica
 ```python
 from SecuenciaAlfanumerica import DiccionarioNum
@@ -59,6 +66,8 @@ Resolver = ['AAAAA', 'AAAAC', 'AACAB'] # Elementos para resolver
 print(DiccionarioNum(Diccionario, Resolver))
 # [0, 2, 19]
 ```
+
+<br>
 
 ## Partes
 ### Diccionario
@@ -88,12 +97,16 @@ Puedes llamar a un Diccionario predefinido o declararlo tú.
 "añ0" - ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 ```
 
+<br>
+
 ### Devolver
 Es el conjunto de valores el cual se va a convertir.
 
 `[0, 4]` - Devolver del 1 al 5
 
 `[4]` - Devolver 4
+
+<br>
 
 ### Grupo
 Cantidad mínima de caracteres del grupo. Si no se define se devolverá la máxima a la que llegue.
@@ -104,6 +117,7 @@ Cantidad mínima de caracteres del grupo. Si no se define se devolverá la máxi
 
 `Sin definir` - BA
 
+<br>
 
 ### Resolver
 Valores de los cuales se quiere saber la posición.
